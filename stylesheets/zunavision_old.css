@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+
+#spinner {float: right; margin: 10px;}
+
+#imagecontainer {
+/* background-color:#ededed;*/
+ width:150px;
+ float:left;
+ margin:5px;
+}
+#videocontainer {
+/* background-color:#ededed;*/
+ width:150px;
+ float:left;
+ margin:5px;
+}
+#flash {
+   margin-top: 5px;
+   background-color: #ed6;
+   color: #000;
+   /*font:79% tahoma, verdana, sans-serif;*/
+}
+
+#imagename {
+   /*font:79% tahoma, verdana, sans-serif;*/
+        color: #fff;
+        /*float: left;*/
+}
+
+
+
+/* Formatting Tags */
+
+a#attention
+{
+
+   font:tahoma, verdana, sans-serif;
+	
+font-size: 20px;
+    color: #557f96;
+   /*font-weight: bold;*/
+}
+
+h2{
+	font-size: 13pt;
+	font-weight: 400;
+	margin: 0 0 12px;
+	color: #557f96;
+}
+
+#smalltext{
+	font-size: 10pt;
+	color: #999999;
+}
+
+#smalltext a{
+	font-size: 10pt;
+	color: #999999;
+}
+
+a:link , a:visited
+{
+	color: #557f96;
+	font-size: 11pt;
+	text-decoration: none;
+}
+
+a img { border: 0px; }
+
+a:hover
+{
+	color: #557f96;
+	font-size: 11pt;
+	text-decoration: underline;
+}
+
+
+/* End of Formatting Tags*/
+
+/*Tablist*/
+
+#tablist{
+list-style:none;
+padding: 0;
+margin:0 auto;
+}
+
+#tablist li {
+float: left;
+display: block;
+margin:0;
+}
+
+#tablist a , #othertabs a{
+display: block;
+float: left;
+font-family: tahoma;
+font-size: 11pt;
+clear: both;
+text-decoration:none;
+}
+
+
+#othertabs a{
+display: block;
+float: left;
+font-family: tahoma;
+font-size: 13pt;
+clear: both;
+text-decoration:none;
+}
+
+
+#othertabs{
+list-style:none;
+padding: 0;
+margin:0 auto;
+margin-top: 10px;
+float: right;
+
+}
+
+#othertabs a.normaluser:link, #othertabs a.normaluser:visited, #othertabs a.normaluser:active
+{
+/*color: #000;
+background: url("../images/button_normal.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 35px;
+padding-bottom: 10px;
+padding-right: 35px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;*/
+
+}
+
+#othertabs a.normaluser:hover
+{
+/*color: #000;
+background: url("../images/button_normal.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 35px;
+padding-bottom: 10px;
+padding-right: 35px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;*/
+text-decoration: underline;
+
+}
+
+
+/*#tablist a.normal:link, #tablist a.normal:visited, #tablist a.normal:active
+{
+color: #000;
+background: url("../images/button_normal.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 35px;
+padding-bottom: 10px;
+padding-right: 35px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+}
+
+#tablist a.normal:hover
+{
+color: #000;
+background: url("../images/button_hover.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 35px;
+padding-bottom: 10px;
+padding-right: 35px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+}
+
+#tablist a.selected:link, #tablist a.selected:visited, #tablist a.selected:active
+{
+	color: #000;
+	background: url("../images/button_pressed.jpg") center top no-repeat;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-bottom: 10px;
+	padding-right: 35px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+#tablist a.selected:hover
+{
+	color: #000;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-bottom: 10px;
+	padding-right: 35px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}*/
+
+
+#tablist a.normaluser:link, #tablist a.normaluser:visited, #tablist a.normaluser:active
+{
+color: #000;
+background: url("../images/button_normal.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 10px;
+padding-right: 15px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+}
+
+#tablist a.normaluser:hover
+{
+color: #000;
+background: url("../images/button_hover.jpg") center top no-repeat;
+padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 10px;
+padding-right: 15px;
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+}
+
+#tablist a.selecteduser:link, #tablist a.selecteduser:visited, #tablist a.selecteduser:active
+{
+        color: #000;
+        background: url("../images/button_pressed.jpg") center top no-repeat;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+}
+
+#tablist a.selecteduser:hover
+{
+        color: #000; 
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+}
+
+
+
+
+/* End of Tablist*/
+
+/* Divisions */
+
+div#main {
+	width: 800px;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	
+}
+
+div#content {
+	width: 770px;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	margin:0 auto;
+	font-family: Tahoma, Verdana;
+	font-size: 79%;
+}
+
+body {
+	background-color: #E3ECF0;/*#D9E4EA;*/
+}
+
+
+div#border_bottom {
+margin:0 auto;
+width: 800px;
+padding: 20px 0 0px 0;
+overflow: hidden;
+background: url("../images/border_bottom.gif") no-repeat;
+height: 0px !important; /* for most browsers */
+height /**/:20px; /* for IE5.5's bad box model */
+}
+
+div#logo {
+margin:0 auto;
+width: 800px;
+padding: 0px 0 0px 0;
+overflow: hidden;
+background: url("../images/logo.gif") no-repeat;
+height:115px !important; /* for most browsers */
+height /**/:115px; /* for IE5.5's bad box model */
+}
+
+
+div#footer
+{
+border-top:1px solid #d8d8d8;
+}
+
+div#videbox {
+
+}
+
+#rate { padding: 5px; }
+#thumbs { float:right; width:80px}
+#titletext{ position:relative; width:235px;}
+#stars{position:absolute; left:155px;}
+
+
+#leftthumb {  width:32px; height:32px; float:right;}
+a #leftthumb  { background:url('/images/tu.gif') top left no-repeat; }
+a:hover #leftthumb  { background:url('/images/tu_h.gif') left top no-repeat;}
+a:active #leftthumb { background:url('/images/tu_s.gif') left top no-repeat;}
+#rightthumb {  width:32px; height:32px; float:right;}
+a #rightthumb  { background:url('/images/td.gif') left top no-repeat; }
+a:hover #rightthumb  { background:url('/images/td_h.gif') left top no-repeat;}
+a:active #rightthumb { background:url('/images/td_s.gif') left top no-repeat;}
+#leftthumb_sel { width:32px; height:32px; float:right;}
+a #leftthumb_sel  { background:url('/images/tu_s.gif') top left no-repeat; }
+a:hover #leftthumb_sel  { background:url('/images/tu_h.gif') left top no-repeat;}
+a:active #leftthumb_sel { background:url('/images/tu_s.gif') left top no-repeat;}
+#rightthumb_sel {  width:32px; height:32px; float:right;}
+a #rightthumb_sel  { background:url('/images/td_s.gif') left top no-repeat; }
+a:hover #rightthumb_sel  { background:url('/images/td_h.gif') left top no-repeat;}
+a:active #rightthumb_sel { background:url('/images/td_s.gif') left top no-repeat;}
+
+/*End of Divisions*/
+
